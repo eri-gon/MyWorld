@@ -47,10 +47,6 @@ const LandingPage: React.FC = () => {
           <div style={{ lineHeight: '1.8', fontSize: '1.1rem', color: '#444' }} className="handwritten">
             <p style={{ marginBottom: '1rem' }}>I grew up in Fremont, California, where competition is an endless pursuit of ends, move fast, and break things. Things can be discarded, repaired, and replaced at a moment’s notice, but people take years or maybe never recover from the continuous pressure and competitiveness. Coming out of high school, I was broken, lost, and without direction.</p>
             <p>At UCSD, I was given the time and space to discover what I was genuinely interested in and passionate about. I got into triathlon, and realized it wasn’t for me. I taught myself piano from a library book. I co-founded a juggling club. Although I initially chose my data science major, unsure of it, I slowly developed a passion for the content I was learning.</p>
-            
-            <Link to="/blog" style={{ ...buttonStyle, marginTop: '2rem' }}>
-              Read the Log <ArrowRight size={16} />
-            </Link>
           </div>
         </NoteBlock>
       </section>
@@ -63,10 +59,10 @@ const LandingPage: React.FC = () => {
           </Link>
         </NoteBlock>
 
-        <NoteBlock title="Recent Thoughts" hasWashiTape={true}>
-          <p>Read my latest blog entries about technology and life.</p>
-          <Link to="/blog" style={buttonStyle}>
-            Read Blog <ArrowRight size={16} />
+        <NoteBlock title="About Me" hasWashiTape={true}>
+          <p>Learn more about my background, education, and technical skills.</p>
+          <Link to="/about" style={buttonStyle}>
+            View About Me <ArrowRight size={16} />
           </Link>
         </NoteBlock>
       </div>

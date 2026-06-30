@@ -17,9 +17,6 @@ const Navbar: React.FC = () => {
       <Link to="/about" className={`bookmark-tab ${isActive('/about') ? 'active' : ''}`}>
         <span>About</span>
       </Link>
-      <Link to="/blog" className={`bookmark-tab ${isActive('/blog') ? 'active' : ''}`}>
-        <span>Blog</span>
-      </Link>
     </div>
   );
 };

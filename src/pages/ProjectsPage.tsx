@@ -10,8 +10,17 @@ import gaitThumb from '../assets/thumbnail/gait_thumbnail.png';
 import gearThumb from '../assets/thumbnail/Geargrind_thumbnail.png';
 import foodThumb from '../assets/thumbnail/food_thumbnail.png';
 import portThumb from '../assets/thumbnail/Portfolio_thumbnail.png';
+import formula1Thumb from '../assets/thumbnail/formula1_thumbnail.png';
 
 const projects = [
+  {
+    title: "Formula 1 DNF Prediction",
+    description: "Trained and evaluated Logistic Regression, Random Forest, XGBoost, and LightGBM models under significant class imbalance and temporal distribution shifts. Optimized LightGBM using Optuna Bayesian hyperparameter search over 30 trials, achieving a 2.6x improvement in F1-score and 5x in Recall compared to baselines. Built and deployed an interactive web application on Hugging Face Spaces for real-time race outcome predictions.",
+    tags: ["Python", "LightGBM", "XGBoost", "Optuna", "Hugging Face Spaces"],
+    date: "June 2026",
+    link: "https://huggingface.co/spaces/EricGan64/F1-project",
+    image: formula1Thumb
+  },
   {
     title: "1D Convolution Visualization Playground",
     description: "Built an interactive web application to visualize discrete convolution with step-by-step kernel sliding. Designed interactive controls for signals and kernels to improve intuition for linear systems.",

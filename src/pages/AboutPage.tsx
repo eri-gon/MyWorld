@@ -28,7 +28,10 @@ const AboutPage: React.FC = () => {
         <NoteBlock hasWashiTape={true} date="Sep. 2023 – Jun 2027">
           <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>UC San Diego</h3>
           <p style={{ fontWeight: '600', marginBottom: '0.2rem' }}>Bachelor of Arts in Data Science</p>
-          <p style={{ color: '#666', fontSize: '0.9rem' }}>3.87 GPA • La Jolla, CA</p>
+          <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1rem' }}>3.87 GPA • La Jolla, CA</p>
+          <div style={{ fontSize: '0.95rem', borderTop: '1px dashed #e0e0e0', paddingTop: '0.8rem' }}>
+            <span style={{ fontWeight: '600' }}>Relevant Coursework:</span> AI: Search and Reasoning (CSE 150B), Genetics (BICD 100), Ecosystems and Global Change (BIEB 174), Introductory Biology Lab (BILD 4)
+          </div>
         </NoteBlock>
       </section>
 
@@ -39,9 +42,8 @@ const AboutPage: React.FC = () => {
             <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>Undergraduate Research Assistant</h3>
             <p style={{ fontWeight: '600', marginBottom: '0.5rem' }}>Knight Lab, UC San Diego</p>
             <ul style={{ paddingLeft: '1.5rem', margin: '0' }}>
-              <li>Performed data scraping and processing of large-scale microbiome datasets using Python and Bash</li>
-              <li>Conducted QIIME 2 analyses to study microbial community structure and diversity</li>
-              <li>Developed and optimized workflows to streamline microbiome data cleaning and visualization</li>
+              <li>Curated a global gut microbiome meta-dataset by systematically scraping literature from Google Scholar, extracting diverse cohort data, and standardizing metadata fields to ensure cross-study consistency</li>
+              <li>Aggregated and visualized large-scale metadata in QIIME 2, analyzing taxonomic distributions and microbial community patterns across distinct geographic populations</li>
             </ul>
           </NoteBlock>
 
@@ -51,19 +53,18 @@ const AboutPage: React.FC = () => {
             <p style={{ fontSize: '0.9rem', color: '#666', marginBottom: '0.5rem' }}>June 2024 – Aug 2024, June 2025 – Aug 2025</p>
             <ul style={{ paddingLeft: '1.5rem', margin: '0' }}>
               <li>Supervised food service operations serving up to 300 people per meal</li>
-              <li>Managed inventory, ordering, and logistics across multiple facilities</li>
-              <li>Created SOPs to improve operational efficiency and consistency</li>
-              <li>Trained and led staff to ensure safe and efficient service</li>
+              <li>Created Standard of Operating Procedures to improve operational efficiency and consistency</li>
+              <li>Trained and led a team of 7 to ensure safe and efficient service</li>
             </ul>
           </NoteBlock>
 
           <NoteBlock hasWashiTape={true} date="Dec. 2024 – Present">
-            <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>Co-Founder</h3>
+            <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>President</h3>
             <p style={{ fontWeight: '600', marginBottom: '0.5rem' }}>333Jugglers, UC San Diego</p>
             <ul style={{ paddingLeft: '1.5rem', margin: '0' }}>
-              <li>Founded and scaled UCSD juggling club from concept to official recognition</li>
-              <li>Led recruitment, events, and weekly skill workshops</li>
-              <li>Managed logistics, partnerships, and long-term sustainability planning</li>
+              <li>Co-founded a recreational juggling club at UCSD with 110 members</li>
+              <li>Reserved rooms and secured quarterly club funding</li>
+              <li>Coordinated the design and production of club promotional flyers and custom merchandise</li>
             </ul>
           </NoteBlock>
         </div>
@@ -80,6 +81,7 @@ const AboutPage: React.FC = () => {
               <Sticker rotate="0deg" color="#f39c12">JavaScript</Sticker>
               <Sticker rotate="0deg" color="#2ecc71">SQL</Sticker>
               <Sticker rotate="0deg" color="#e67e22">HTML/CSS</Sticker>
+              <Sticker rotate="0deg" color="#9b59b6">R</Sticker>
             </div>
           </div>
           <div>
@@ -99,6 +101,8 @@ const AboutPage: React.FC = () => {
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
               <Sticker rotate="0deg" color="#f05032">Git</Sticker>
               <Sticker rotate="0deg" color="#4eaa25">Bash</Sticker>
+              <Sticker rotate="0deg" color="#e25a24">PySpark</Sticker>
+              <Sticker rotate="0deg" color="#fd7e14">Dask</Sticker>
               <Sticker rotate="0deg" color="#000000">QIIME 2</Sticker>
               <Sticker rotate="0deg" color="#007acc">VS Code</Sticker>
               <Sticker rotate="0deg" color="#fe315d">IntelliJ</Sticker>
@@ -107,6 +111,35 @@ const AboutPage: React.FC = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section style={{ marginBottom: '4rem', textAlign: 'center' }}>
+        <a 
+          href="/Eric_Gan_Resume.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            padding: '0.75rem 1.5rem',
+            backgroundColor: 'white',
+            border: '1px solid #e0e0e0',
+            borderRadius: '4px',
+            boxShadow: '2px 2px 10px rgba(0,0,0,0.05)',
+            color: 'var(--accent-color)',
+            textDecoration: 'none',
+            fontWeight: '600',
+            fontFamily: 'var(--font-accent)',
+            fontSize: '1.2rem',
+            transition: 'transform 0.2s ease',
+            cursor: 'pointer'
+          }}
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+        >
+          Download Full Resume (PDF) &rarr;
+        </a>
       </section>
 
     </div>
