@@ -1,6 +1,7 @@
 import React from 'react';
 import NoteBlock from '../components/NoteBlock';
 import Sticker from '../components/Sticker';
+import resumePdf from '../assets/resume.pdf';
 
 const AboutPage: React.FC = () => {
   return (
@@ -115,7 +116,7 @@ const AboutPage: React.FC = () => {
 
       <section style={{ marginBottom: '4rem', textAlign: 'center' }}>
         <a 
-          href="/Eric_Gan_Resume.pdf" 
+          href={resumePdf} 
           target="_blank" 
           rel="noopener noreferrer" 
           style={{
