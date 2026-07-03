@@ -11,6 +11,7 @@ import gearThumb from '../assets/thumbnail/Geargrind_thumbnail.png';
 import foodThumb from '../assets/thumbnail/food_thumbnail.png';
 import portThumb from '../assets/thumbnail/Portfolio_thumbnail.png';
 import formula1Thumb from '../assets/thumbnail/formula1_thumbnail.png';
+import oceanThumb from '../assets/thumbnail/ocean_health.png';
 
 const projects = [
   {
@@ -20,6 +21,14 @@ const projects = [
     date: "June 2026",
     link: "https://huggingface.co/spaces/EricGan64/F1-project",
     image: formula1Thumb
+  },
+  {
+    title: "Ocean Health Dashboard",
+    description: "Designed a serverless data pipeline (S3 + Athena + Lambda + API Gateway) for an 800,000-record dataset. Developed the full-stack dashboard end-to-end within 20 hours, from data ingestion to deployment. Designed a composite ocean health index to visualize trends across time and geographic regions.",
+    tags: ["Streamlit", "AWS S3", "AWS Athena", "AWS Lambda", "API Gateway", "Python"],
+    date: "April 2026",
+    link: "https://chumbucket.streamlit.app/",
+    image: oceanThumb
   },
   {
     title: "1D Convolution Visualization Playground",

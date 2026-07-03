@@ -95,6 +95,7 @@ const AboutPage: React.FC = () => {
               <Sticker rotate="0deg" color="#013243">NumPy</Sticker>
               <Sticker rotate="0deg" color="#2c3e50">Matplotlib</Sticker>
               <Sticker rotate="0deg" color="#f9a03f">D3.js</Sticker>
+              <Sticker rotate="0deg" color="#ff4b4b">Streamlit</Sticker>
             </div>
           </div>
           <div>
@@ -109,6 +110,8 @@ const AboutPage: React.FC = () => {
               <Sticker rotate="0deg" color="#fe315d">IntelliJ</Sticker>
               <Sticker rotate="0deg" color="#5a5a5a">Cursor</Sticker>
               <Sticker rotate="0deg" color="#ff00ff">Antigravity</Sticker>
+              <Sticker rotate="0deg" color="#ff9900">AWS (S3, Athena, Lambda)</Sticker>
+              <Sticker rotate="0deg" color="#2575fc">API Gateway</Sticker>
             </div>
           </div>
         </div>
