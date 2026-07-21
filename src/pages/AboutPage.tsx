@@ -79,9 +79,10 @@ const AboutPage: React.FC = () => {
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
               <Sticker rotate="0deg">Python</Sticker>
               <Sticker rotate="0deg" color="#3498db">Java</Sticker>
-              <Sticker rotate="0deg" color="#f39c12">JavaScript</Sticker>
+              <Sticker rotate="0deg" color="#f39c12">JavaScript (ES6+)</Sticker>
               <Sticker rotate="0deg" color="#2ecc71">SQL</Sticker>
-              <Sticker rotate="0deg" color="#e67e22">HTML/CSS</Sticker>
+              <Sticker rotate="0deg" color="#e67e22">HTML5</Sticker>
+              <Sticker rotate="0deg" color="#e67e22">CSS3</Sticker>
               <Sticker rotate="0deg" color="#9b59b6">R</Sticker>
             </div>
           </div>
@@ -96,6 +97,9 @@ const AboutPage: React.FC = () => {
               <Sticker rotate="0deg" color="#2c3e50">Matplotlib</Sticker>
               <Sticker rotate="0deg" color="#f9a03f">D3.js</Sticker>
               <Sticker rotate="0deg" color="#ff4b4b">Streamlit</Sticker>
+              <Sticker rotate="0deg" color="#009485">FastAPI</Sticker>
+              <Sticker rotate="0deg" color="#4f5d73">Uvicorn</Sticker>
+              <Sticker rotate="0deg" color="#336791">psycopg2</Sticker>
             </div>
           </div>
           <div>
@@ -112,6 +116,9 @@ const AboutPage: React.FC = () => {
               <Sticker rotate="0deg" color="#ff00ff">Antigravity</Sticker>
               <Sticker rotate="0deg" color="#ff9900">AWS (S3, Athena, Lambda)</Sticker>
               <Sticker rotate="0deg" color="#2575fc">API Gateway</Sticker>
+              <Sticker rotate="0deg" color="#336791">PostgreSQL</Sticker>
+              <Sticker rotate="0deg" color="#e67e22">Regular Expressions</Sticker>
+              <Sticker rotate="0deg" color="#1abc9c">REST APIs</Sticker>
             </div>
           </div>
         </div>

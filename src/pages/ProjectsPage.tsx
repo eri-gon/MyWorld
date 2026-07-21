@@ -15,6 +15,13 @@ import oceanThumb from '../assets/thumbnail/ocean_health.png';
 
 const projects = [
   {
+    title: "Personal CRM Social Graph Visualizer",
+    description: "Designed and built a personal CRM social graph visualizer using a FastAPI backend and an interactive D3.js frontend dashboard, displaying real-time personal connections and group memberships. Engineered a custom Python ingestion pipeline that parses exported Google Keep JSON files, designed a relational database schema in PostgreSQL (Adjacency List Model), solved same-name node collisions with a hybrid entity resolution heuristic, and built a responsive dark-mode glassmorphic D3.js visualizer with custom physics constraints.",
+    tags: ["Python", "FastAPI", "PostgreSQL", "D3.js", "SQL", "JavaScript", "HTML/CSS", "Regular Expressions", "REST APIs"],
+    date: "July 2026",
+    link: ""
+  },
+  {
     title: "Formula 1 DNF Prediction",
     description: "Trained and evaluated Logistic Regression, Random Forest, XGBoost, and LightGBM models under significant class imbalance and temporal distribution shifts. Optimized LightGBM using Optuna Bayesian hyperparameter search over 30 trials, achieving a 2.6x improvement in F1-score and 5x in Recall compared to baselines. Built and deployed an interactive web application on Hugging Face Spaces for real-time race outcome predictions.",
     tags: ["Python", "LightGBM", "XGBoost", "Optuna", "Hugging Face Spaces"],
