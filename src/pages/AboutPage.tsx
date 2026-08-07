@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
 
       <section style={{ marginBottom: '4rem' }}>
         <h2 className="handwritten" style={{ marginBottom: '1.5rem' }}>Education</h2>
-        <NoteBlock hasWashiTape={true} date="Sep. 2023 – Jun 2027">
+        <NoteBlock hasWashiTape={true} date="Sep. 2023 – Mar. 2027">
           <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>UC San Diego</h3>
           <p style={{ fontWeight: '600', marginBottom: '0.2rem' }}>Bachelor of Arts in Data Science</p>
           <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1rem' }}>3.87 GPA • La Jolla, CA</p>
