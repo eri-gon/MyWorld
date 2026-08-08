@@ -19,8 +19,8 @@ const projects = [
     title: "Personal CRM Social Graph Visualizer",
     description: "Designed and built a personal CRM social graph visualizer using a FastAPI backend and an interactive D3.js frontend dashboard, displaying real-time personal connections and group memberships. Engineered a custom Python ingestion pipeline that parses exported Google Keep JSON files, designed a relational database schema in PostgreSQL (Adjacency List Model), solved same-name node collisions with a hybrid entity resolution heuristic, and built a responsive dark-mode glassmorphic D3.js visualizer with custom physics constraints.",
     tags: ["Python", "FastAPI", "PostgreSQL", "D3.js", "SQL", "JavaScript", "HTML/CSS", "Regular Expressions", "REST APIs"],
-    date: "(work in progress)",
-    link: "",
+    date: "August 2026",
+    link: "https://social-tree-k188.onrender.com/",
     image: crmThumb
   },
   {
