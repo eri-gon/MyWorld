@@ -107,6 +107,9 @@ const AboutPage: React.FC = () => {
             <div style={{ display: 'flex', gap: '0.8rem', flexWrap: 'wrap' }}>
               <Sticker rotate="0deg" color="#f05032">Git</Sticker>
               <Sticker rotate="0deg" color="#4eaa25">Bash</Sticker>
+              <Sticker rotate="0deg" color="#2496ed">Docker</Sticker>
+              <Sticker rotate="0deg" color="#46e3b7" style={{ color: '#000' }}>Render</Sticker>
+              <Sticker rotate="0deg" color="#00e599" style={{ color: '#000' }}>Neon Postgres</Sticker>
               <Sticker rotate="0deg" color="#e25a24">PySpark</Sticker>
               <Sticker rotate="0deg" color="#fd7e14">Dask</Sticker>
               <Sticker rotate="0deg" color="#000000">QIIME 2</Sticker>

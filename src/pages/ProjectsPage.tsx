@@ -16,9 +16,9 @@ import crmThumb from '../assets/thumbnail/personal-crm.png';
 
 const projects = [
   {
-    title: "Personal CRM Social Graph Visualizer",
-    description: "Designed and built a personal CRM social graph visualizer using a FastAPI backend and an interactive D3.js frontend dashboard, displaying real-time personal connections and group memberships. Engineered a custom Python ingestion pipeline that parses exported Google Keep JSON files, designed a relational database schema in PostgreSQL (Adjacency List Model), solved same-name node collisions with a hybrid entity resolution heuristic, and built a responsive dark-mode glassmorphic D3.js visualizer with custom physics constraints.",
-    tags: ["Python", "FastAPI", "PostgreSQL", "D3.js", "SQL", "JavaScript", "HTML/CSS", "Regular Expressions", "REST APIs"],
+    title: "Social Tree – Personal CRM & Social Graph",
+    description: "A full-stack personal CRM and dynamic graph platform that converts unstructured notes into a structured social network with 2D interactive force-directed graph physics using D3.js. Features a custom rule-based NLP parser in Python, a PostgreSQL database utilizing Adjacency List edge modeling and JSONB metadata, FastAPI REST endpoints, and Docker containerization deployed on Render with Neon Serverless Postgres.",
+    tags: ["Python", "FastAPI", "PostgreSQL", "D3.js", "Docker", "Render", "JSONB", "JavaScript", "HTML/CSS", "REST APIs"],
     date: "August 2026",
     link: "https://social-tree-k188.onrender.com/",
     image: crmThumb
