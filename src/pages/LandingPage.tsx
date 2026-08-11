@@ -1,6 +1,5 @@
 import React from 'react';
 import NoteBlock from '../components/NoteBlock';
-import Sticker from '../components/Sticker';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import profilePic from '../assets/profilepic.jpg';
@@ -32,21 +31,19 @@ const LandingPage: React.FC = () => {
             }} 
           />
         </div>
-        <Sticker rotate="0deg" style={{ marginBottom: '1.5rem' }}>வணக்கம் • 你好 • Hello</Sticker>
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }} className="handwritten">
           I’m <span className="accent-text">Eric Gan</span> (甘雨轩 / erigon)
         </h1>
         <div style={{ fontSize: '1.2rem', maxWidth: '700px', margin: '0 auto', color: '#666', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <p>I build systems to find signal in noise.</p>
-          <p>I choose intentionality over endless consumption.</p>
+          <p>Data Science student at UC San Diego building data pipelines, computational biology workflows, and tools that help people work and think effectively.</p>
         </div>
       </section>
 
       <section style={{ marginBottom: '6rem' }}>
         <NoteBlock title="My Story" hasWashiTape={true}>
           <div style={{ lineHeight: '1.8', fontSize: '1.1rem', color: '#444' }} className="handwritten">
-            <p style={{ marginBottom: '1rem' }}>I grew up in Fremont, California, where competition is an endless pursuit of ends, move fast, and break things. Things can be discarded, repaired, and replaced at a moment’s notice, but people take years or maybe never recover from the continuous pressure and competitiveness. Coming out of high school, I was broken, lost, and without direction.</p>
-            <p>At UCSD, I was given the time and space to discover what I was genuinely interested in and passionate about. I got into triathlon, and realized it wasn’t for me. I taught myself piano from a library book. I co-founded a juggling club. Although I initially chose my data science major, unsure of it, I slowly developed a passion for the content I was learning.</p>
+            <p style={{ marginBottom: '1rem' }}>Growing up in the Bay Area surrounded by fast tech, I became fascinated by how systems work under the hood. At UC San Diego, I turned that curiosity into a major in Data Science, where I explore data engineering, machine learning, and computational biology.</p>
+            <p>I thrive on deliberate focus and hands-on craft: whether curating global gut microbiome datasets at Knight Lab, managing operations for 300+ guests at Philmont Scout Ranch, teaching myself piano from a library book, or co-founding UCSD’s 110-member juggling club. For me, working with software and data is about tackling real problems with patience, care, and continuous iteration.</p>
           </div>
         </NoteBlock>
       </section>

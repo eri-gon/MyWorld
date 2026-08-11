@@ -10,16 +10,13 @@ const AboutPage: React.FC = () => {
         <h1 className="handwritten" style={{ fontSize: '3rem', marginBottom: '2rem' }}>About Me</h1>
         <NoteBlock hasWashiTape={true}>
           <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem' }}>
-            I’m interested in improving how people <span className="handwritten accent-text" style={{ fontSize: '1.5rem' }}>learn, think, and work</span>—through better tools, cleaner pipelines, and thoughtful design.
+            I’m a Data Science student at UC San Diego interested in building tools and systems that help people <span className="handwritten accent-text" style={{ fontSize: '1.5rem' }}>learn, think, and work</span> better.
           </p>
-          <p style={{ marginBottom: '0.5rem' }}>
-            I build systems to find signal in noise.
-          </p>
-          <p style={{ marginBottom: '1.5rem' }}>
-            I choose intentionality over endless consumption.
+          <p style={{ marginBottom: '1rem' }}>
+            My approach is rooted in intentionality, deep focus, and continuous craft. Whether I am engineering data pipelines, exploring biological meta-datasets, or designing interactive web interfaces, I enjoy taking on complex problems with patience and clarity.
           </p>
           <p className="accent-text" style={{ fontWeight: '600' }}>
-            Most importantly, I’m a fast and lifelong learner.
+            Most importantly, I am a fast and lifelong learner.
           </p>
         </NoteBlock>
       </section>
