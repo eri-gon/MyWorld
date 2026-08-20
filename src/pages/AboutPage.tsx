@@ -25,7 +25,7 @@ const AboutPage: React.FC = () => {
         <h2 className="handwritten" style={{ marginBottom: '1.5rem' }}>Education</h2>
         <NoteBlock hasWashiTape={true} date="Sep. 2023 – Mar. 2027">
           <h3 className="handwritten" style={{ margin: '0 0 0.5rem' }}>UC San Diego</h3>
-          <p style={{ fontWeight: '600', marginBottom: '0.2rem' }}>Bachelor of Arts in Data Science</p>
+          <p style={{ fontWeight: '600', marginBottom: '0.2rem' }}>Bachelor of Science in Data Science</p>
           <p style={{ color: '#666', fontSize: '0.9rem', marginBottom: '1rem' }}>3.87 GPA • La Jolla, CA</p>
           <div style={{ fontSize: '0.95rem', borderTop: '1px dashed #e0e0e0', paddingTop: '0.8rem' }}>
             <span style={{ fontWeight: '600' }}>Relevant Coursework:</span> AI: Search and Reasoning (CSE 150B), Genetics (BICD 100), Ecosystems and Global Change (BIEB 174), Introductory Biology Lab (BILD 4)
